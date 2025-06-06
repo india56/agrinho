@@ -50,6 +50,22 @@ header {
     color: #666;
 }
 
+.cta-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: #5A8F2D;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #4a7c27;
+}
+
 .highlights {
     display: flex;
     justify-content: space-between;
@@ -92,28 +108,80 @@ header {
     color: #777;
 }
 
+.testimonials {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+}
+
+.testimonial-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 30px;
+    border-radius: 8px;
+    margin: 20px auto;
+    width: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-card p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.testimonial-card h4 {
+    font-size: 1.1rem;
+    color: #333;
+    margin-top: 15px;
+}
+
+.registration {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #e0f7e1;
+}
+
+.registration h2 {
+    font-size: 2.5rem;
+    color: #5A8F2D;
+}
+
+.registration p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.social-media {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #333;
+    color: white;
+}
+
+.social-icons a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #9BCA64;
+}
+
 footer {
     background-color: #333;
     color: white;
+    padding: 20px;
     text-align: center;
-    padding: 20px 0;
 }
 
-footer p {
-    font-size: 1.2rem; /* Aumento no tamanho do texto */
+footer a {
+    color: white;
+    text-decoration: none;
 }
 
-@media (max-width: 768px) {
-    .highlights {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .highlight-card {
-        width: 80%; /* Ajuste para telas pequenas */
-    }
-
-    footer p {
-        font-size: 1.1rem; /* Ajuste para maior legibilidade em dispositivos móveis */
-    }
+footer a:hover {
+    color: #9BCA64;
 }
