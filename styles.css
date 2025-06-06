@@ -19,13 +19,13 @@ header {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-header h1 {
+.header-container h1 {
     font-size: 3.5rem;
     margin-bottom: 10px;
     font-family: 'Georgia', serif;
 }
 
-header p {
+.header-container p {
     font-size: 1.3rem;
     font-style: italic;
 }
@@ -100,5 +100,20 @@ footer {
 }
 
 footer p {
-    font-size: 1rem;
+    font-size: 1.2rem; /* Aumento no tamanho do texto */
+}
+
+@media (max-width: 768px) {
+    .highlights {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .highlight-card {
+        width: 80%; /* Ajuste para telas pequenas */
+    }
+
+    footer p {
+        font-size: 1.1rem; /* Ajuste para maior legibilidade em dispositivos móveis */
+    }
 }
